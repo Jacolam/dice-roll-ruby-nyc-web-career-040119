@@ -4,7 +4,7 @@
 array = [1..6]
 def roll
   # code goes here
-  return rand(array)
+  return array[rand(5)]
 end
 
   #def roll
